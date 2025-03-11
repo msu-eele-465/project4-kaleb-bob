@@ -6,46 +6,46 @@ You are encouraged to support each other with an overall goal of successfully co
 
 You will fill out this form:
 1. Before the project starts. This is to document your intention. 
-2. Before the demo if there was any deviation from the initial plan.
+2. Before the demo if there was any deviation from the initial plan.                                                      K           B
 
 | Requirement/specification                                                                                | Points | Partner 1 | Partner 2 |
 |----------------------------------------------------------------------------------------------------------|--------|-----------|-----------|
 | **Presentation**                                                                                         |        |           |           |
-| Introduction                                                                                             | 1      |           |           |
-| Circuit diagram                                                                                          | 2      |           |           |
-| System architecture diagram                                                                              | 2      |           |           |
-| Controller high-level flowchart                                                                          | 1      |           |           |
-| LED peripheral high-level flowchart                                                                      | 1      |           |           |
-| LCD peripheral high-level flowchart                                                                      | 1      |           |           |
-| Professional demo                                                                                        | 2      |           |           |
+| Introduction                                                                                             | 1      |     x     |      x    |
+| Circuit diagram                                                                                          | 2      |           |      x    |
+| System architecture diagram                                                                              | 2      |     x     |      x    |
+| Controller high-level flowchart                                                                          | 1      |           |      x    |
+| LED peripheral high-level flowchart                                                                      | 1      |           |      x    |
+| LCD peripheral high-level flowchart                                                                      | 1      |    x      |           |
+| Professional demo                                                                                        | 2      |    x      |      x    |
 | **LED Patterns**                                                                                         |        |           |           |
-| LED patterns work correctly                                                                              | 1      |           |           |
+| LED patterns work correctly                                                                              | 1      |           |      x    |
 | **LCD Display**                                                                                          |        |           |           |
-| LCD is blank when the system is locked                                                                   | 0.5    |           |           |
-| LCD displays current keypress when unlocked                                                              | 1      |           |           |
-| LCD displays  LED pattern name                                                                           | 2      |           |           |
-| Pressing “C” toggles the cursor state (on or off)                                                        | 1      |           |           |
-| Pressing “9” toggles the cursor’s blink state (blinking or not blinking)                                 | 1      |           |           |
+| LCD is blank when the system is locked                                                                   | 0.5    |    x      |           |
+| LCD displays current keypress when unlocked                                                              | 1      |    x      |           |
+| LCD displays  LED pattern name                                                                           | 2      |    x      |           |
+| Pressing “C” toggles the cursor state (on or off)                                                        | 1      |    x      |           |
+| Pressing “9” toggles the cursor’s blink state (blinking or not blinking)                                 | 1      |    x      |           |
 | **Main controller**                                                                                      |        |           |           |
-| System must have a status indicator that indicates whether system is locked, being unlocked, or unlocked | 0.5    |           |           |
-| The system should respond quickly to a key press                                                         | 1      |           |           |
-| The system must communicate to the LED peripheral when a pattern button is pressed                       | 2      |           |           |
-| The system must communicate to the LCD peripheral when any key is pressed                                | 2      |           |           |
+| System must have a status indicator that indicates whether system is locked, being unlocked, or unlocked | 0.5    |     x     |     x     |
+| The system should respond quickly to a key press                                                         | 1      |     x     |     x     |
+| The system must communicate to the LED peripheral when a pattern button is pressed                       | 2      |     x     |     x     |
+| The system must communicate to the LCD peripheral when any key is pressed                                | 2      |     x     |     x     |
 | **LED bar peripheral**                                                                                   |        |           |           |
-| Status indicator must indicate when the system has received data                                         | 0.25   |           |           |
-| Status indicator must indicate when the system has not received data for some time                       | 0.25   |           |           |
-| System must be controlled via i2c                                                                        | 2      |           |           |
+| Status indicator must indicate when the system has received data                                         | 0.25   |           |      x    |
+| Status indicator must indicate when the system has not received data for some time                       | 0.25   |           |      x    |
+| System must be controlled via i2c                                                                        | 2      |           |      x    |
 | **LCD peripheral**                                                                                       |        |           |           |
-| Status indicator must indicate when the system has received data                                         | 0.25   |           |           |
-| Status indicator must indicate when the system has not received data for some time                       | 0.25   |           |           |
-| System must be controlled via i2c                                                                        | 2      |           |           |
-| System must be able to write characters to all 32 segments                                               | 4      |           |           |
-| System must be able to write all characters between 00100011 and 01111111 in the Character Font Table    | 4      |           |           |
-| LCD contrast is adjustable                                                                               | 2      |           |           |
-| LCD must be able to be cleared                                                                           | 1      |           |           |
-| LCD cursor can be turned off and on                                                                      | 1      |           |           |
-| LCD cursor’s blink functionality can be turned off and on                                                | 1      |           |           |
-| Total                                                                                                    | 40     |           |           |
+| Status indicator must indicate when the system has received data                                         | 0.25   |    x      |           |
+| Status indicator must indicate when the system has not received data for some time                       | 0.25   |    x      |           |
+| System must be controlled via i2c                                                                        | 2      |    x      |           |
+| System must be able to write characters to all 32 segments                                               | 4      |    x      |           |
+| System must be able to write all characters between 00100011 and 01111111 in the Character Font Table    | 4      |    x      |           |
+| LCD contrast is adjustable                                                                               | 2      |    x      |           |
+| LCD must be able to be cleared                                                                           | 1      |    x      |           |
+| LCD cursor can be turned off and on                                                                      | 1      |    x      |           |
+| LCD cursor’s blink functionality can be turned off and on                                                | 1      |    x      |           |
+| Total                                                                                                    | 40     |    x      |           |
 
 
 ## 🚀 Extra credit points
